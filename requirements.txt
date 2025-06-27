@@ -1,0 +1,6 @@
+openai
+transformers
+questionary
+matplotlib
+python-dotenv
+ollama 
