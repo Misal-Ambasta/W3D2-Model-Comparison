@@ -116,6 +116,14 @@ Running predefined prompts through all models...
 # (No images are generated in Auto Mode)
 ```
 
+## Example Visualizations
+
+### Token Usage Comparison
+![Token Usage Comparison](token_usage_comparison.png)
+
+### Context Window Length Comparison
+![Context Window Comparison](context_window_comparison.png)
+
 ## Notes on Ollama and GPU/VRAM Requirements
 - Large models like `mistral:latest` and `openhermes:latest` may require more than 4GB VRAM to run on GPU.
 - If you encounter errors such as `unable to allocate CUDA0 buffer`, your GPU may not have enough memory for the model.
